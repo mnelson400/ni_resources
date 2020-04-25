@@ -1,0 +1,47 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.full_page {
+  /* The image used */
+  background-image: url("../assets/images/bkg_pic.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vertical-menu {
+    border: solid 3px;
+    position: relative;
+    float: left;
+    margin: auto;
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    text-align: center;
+    background-color: #eee; /* Grey background color */
+    color: navy; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 4px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+  }
+
+
+  
+  .vertical-menu a:hover {
+    background-color: lightblue; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: lightskyblue; /* Add a green color to the "active/current" link */
+    color: navy;
+  }
